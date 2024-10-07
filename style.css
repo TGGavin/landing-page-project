@@ -13,12 +13,13 @@ header {
 }
 
 .logo, .header-links {
-    
+
 }
 
 
 .logo {
-
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-links {

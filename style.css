@@ -14,14 +14,24 @@ header {
 
 
 /* Here to eliminate redundant code */
-.logo, .header-links {
+/* .logo, .header-links { */
 
+/* } */
+
+.top-content {
+    background-color: #1F2937;
 }
 
+.main-hero, .logo {
+    color: #F9FAF8;
+}
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+}
+
+.main-hero {
+    font-size: 48px;
 }
 
 .header-links {

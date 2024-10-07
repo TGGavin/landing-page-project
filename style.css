@@ -2,16 +2,43 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-flow: column;
-    background-color: #1F2937;
+    margin: 0px;
 }
 
 header {
     display: flex;
     background-color: #1F2937;
     justify-content: space-around;
+    align-items: center;
+}
+
+.logo, .header-links {
+    
+}
+
+
+.logo {
+
+}
+
+.header-links {
+    color: #E5E7EB;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+ul, ol {
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 18px;
 }
 
 a {
     text-decoration: none;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
 }

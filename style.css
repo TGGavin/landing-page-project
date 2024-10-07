@@ -12,6 +12,8 @@ header {
     align-items: center;
 }
 
+
+/* Here to eliminate redundant code */
 .logo, .header-links {
 
 }
@@ -35,7 +37,7 @@ ul, ol {
 }
 
 li {
-    margin-right: 20px;
+    margin-right: 24px;
 }
 
 a {

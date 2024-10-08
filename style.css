@@ -1,3 +1,7 @@
+/* Things to do
+add space between header and top section
+make top content items same height */
+
 body {
     box-sizing: border-box;
     display: flex;
@@ -47,6 +51,7 @@ header {
 }
 
 button {
+    font-size: 18px;
     background-color: #3882f6;
     padding: 4px 8px 4px 8px;
     border-radius: 6px;

@@ -80,13 +80,26 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     max-width: 420px;
+    margin: 12px 0px 4px 0px;
 }
 
 .img-placeholder {
-    height: 200px;
+    height: 228px;
     width: 420px;
-    background-color: gray;
+    background-color: rgb(167, 167, 167);
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.top-div {
+    margin: 100px 0px 100px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.mid-section {
+    display: flex;
     align-items: center;
 }

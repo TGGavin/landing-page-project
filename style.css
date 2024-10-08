@@ -10,6 +10,7 @@ header {
     background-color: #1F2937;
     justify-content: space-around;
     align-items: center;
+    flex-shrink: 0;
 }
 
 
@@ -20,6 +21,9 @@ header {
 
 .top-content {
     background-color: #1F2937;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 
 .main-hero, .logo {
@@ -54,4 +58,15 @@ a {
     text-decoration: none;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+figure {
+   background-color: rgb(173, 171, 171);
+   display: flex;
+   align-items: center;
 }

@@ -126,12 +126,22 @@ a {
 }
 
 .quote-section {
+    padding: 100px 0px 100px 0px;
     background-color: #e5e7eb;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .quote-text {
     font-size: 36px;
-    font-style: italic;
-    font-weight: normal;
+    font-weight: 100;
+    width: 750px;
+    align-self: center;
+}
+
+.credit-text {
+    font-weight: bolder;
+    font-size: 24px;
 }

@@ -125,6 +125,13 @@ a {
     color: #1f2937;
 }
 
-.bottom-sect {
+.quote-section {
     background-color: #e5e7eb;
+    display: flex;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: normal;
 }

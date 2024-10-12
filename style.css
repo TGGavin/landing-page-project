@@ -194,7 +194,7 @@ a {
 footer {
     margin-top: 100px;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
